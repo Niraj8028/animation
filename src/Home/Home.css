@@ -1,0 +1,19 @@
+.background{
+    height: 500px;
+    width: 250px;
+}
+.images{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+   margin-top: 70px;
+   
+}
+img {
+
+    height: 300px;
+    width: 300px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
