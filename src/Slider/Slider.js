@@ -4,9 +4,15 @@ import background from "../Images/4.png"
 import Controller from "../Images/1.png"
 import Power from "../Images/2.png"
 import Headphone from "../Images/3.png"
+import mesh from "../Images/6.png"
+import blank from "../Images/7.png"
+import Mesh from "../Images/5.png"
+import Power1 from "../Images/11.png"
+import Headphone1 from "../Images/12.png"
+import Controller1 from "../Images/13.png"
 
-const colors = [,,Controller, Power, Headphone, Controller, Power, Headphone];
-const delay = 2000;
+const colors = [Controller1,Controller,Power1, Power, Headphone1,Headphone];
+const delay = 2500;
 
 function Slider() {
   const [index, setIndex] = React.useState(0);
@@ -15,7 +21,7 @@ function Slider() {
     setTimeout(
       () =>
         setIndex((prevIndex) =>
-          prevIndex !== colors.length +1 ? prevIndex+1 : 0
+          prevIndex === colors.length-1 ? 0 : prevIndex+1
         ),
       delay
     );
@@ -25,6 +31,8 @@ function Slider() {
   return (
     <div className="slideshow">
         <img className='back' src={background}/>
+        <img className='left-mesh' src={mesh}/>
+        <img className='right-mesh' src={mesh}/>
       <div
         className="slideshowSlider"
         
