@@ -5,66 +5,69 @@
     width: 260px;
     margin-bottom: 100px;
     margin-top: -100px;
-    margin-left: -128px;
-    
-
-   
+    margin-left: -128px;   
 }
-.left-mesh{
-   
-    background-color: rgba(255, 255, 255, 0.341);
-
-
+.left-mesh{ 
+    /* background-color: rgba(255, 255, 255, 0.341); */
+    background-color: rgba(255, 255, 255, 0.204);
     border-right: solid 10px rgb(0, 0, 0);  
-    filter: blur(0.6px);
-
+    filter: blur(0.4px);
     position: absolute;
     height: 420px;
     width: 250px;
-    z-index: 2;
+    z-index: 3;
     top: 50px;
     left: 225px;
 }
 .right-mesh{
-    background-color: rgba(255, 255, 255, 0.341);
+    background-color: rgba(255, 255, 255, 0.204);
     border-left: solid 10px rgb(0, 0, 0);
    top: 50px;
     position: absolute;
     height: 420px;
     width: 250px;
-    z-index: 2;
-    filter: blur(0.6px);
+    z-index: 3;
+    filter: blur(0.4px);
     right: 225px;
     /* background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.138)); */
-   
-  
 }
 
 .slideshow {
+  /* background-color: white; */
+
     overflow: hidden;
-    max-width: 700px;   
-      z-index: 3;
+    max-width: 270px;   
+    z-index: 1;
 }
   
-  .slideshowSlider {
-  
-    z-index: 1;
+.slideshowSlider {
+    
     white-space: nowrap;
     transition: ease 10000ms;
-    
     opacity: 0.5;
   }
-  
-  .slide {
-    /* position: absolute; */
-    /* background-color: white; */
-    
-    opacity: 0.8;
+.slide{
+    /* position: absolute;  */
+    /* background-color: white;    */
+   
     display: inline-block;
-    height: 330px;
-    width: 300px;
-    
-    
+    height: 350px;
+    width: 320px;   
 } 
 
+
+
+/* .slideshow1 {
+    position: absolute;
+    overflow: hidden;
+    max-width: 100px;   
+    z-index:-4;
+}
+  
+.slideshowSlider1 {
+    z-index: -1;
+    white-space: nowrap;
+    transition: ease 10000ms;
+    opacity: 0.5;
+  } */
   
