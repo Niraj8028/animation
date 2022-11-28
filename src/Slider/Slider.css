@@ -13,7 +13,7 @@
 .left-mesh{ 
     /* background-color: rgba(255, 255, 255, 0.341); */
     transform: scale(1.2);
-    background-color: rgba(40, 38, 38, 0.204);
+    background-color: rgba(47, 45, 45, 0.179);
 
     /* background-color: rgba(24, 23, 23, 0.204); */
     border-right: solid 10px rgb(0, 0, 0);  
@@ -28,8 +28,8 @@
 .right-mesh{
   transform: scale(1.2);
   
-  background-color: rgba(40, 39, 39, 0.204);
-
+  /* background-color: rgba(40, 39, 39, 0.204); */
+  background-color: rgba(47, 45, 45, 0.179);
     border-left: solid 10px rgb(0, 0, 0);
    top: 50px;
     position: absolute;
@@ -53,7 +53,7 @@
   left: 180px;
   position: absolute;
   overflow: hidden;
-  max-width: 810px;   
+  max-width: 850px;   
   z-index:-4;
 }
 
@@ -61,13 +61,13 @@
 .slideshowSlider {
     
     white-space: nowrap;
-    transition: linear 10000ms;
+    transition: linear 3000ms;
     opacity: 0.4;
   }
   .slideshowSlider1 {
     z-index: -1;
     white-space: nowrap;
-    transition: linear 10000ms;
+    transition: linear 3000ms;
     opacity: 1;
   }
 .slide1{
@@ -75,7 +75,7 @@
     /* background-color: white;    */
    
     display: inline-block;
-    height: 370px;
+    height: 380px;
     width: 345px;   
 } 
 .slide{
