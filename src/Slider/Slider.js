@@ -11,8 +11,11 @@ import Power1 from "../Images/12.png"
 import Headphone1 from "../Images/11.png"
 import Controller1 from "../Images/13.png"
 
+// array of images
 const images = [blank,Controller,blank, Power,blank,Headphone,blank,Controller,blank,Power,blank];
+// array of svgs
 const images1 = [blank,blank,Controller1,blank, Power1,blank, Headphone1,blank,Controller1,blank,Power1];
+
 const delay = 2000;
 
 function Slider() {
@@ -30,7 +33,7 @@ function Slider() {
     
   }, [index]);
 
-  React.useEffect(() => {
+  useEffect(() => {
     setTimeout(
       () =>
         setIndex1((prevIndex) =>
@@ -43,11 +46,11 @@ function Slider() {
 
   return (
     <div>
-        <img className='back' src={background} />
+        <img className='mobile' src={background} />
         <img className='left-mesh' src={mesh} />
         <img className='right-mesh' src={mesh} />
-        <div className="slideshow">
         
+        <div className="slideshow">       
           <div
           className="slideshowSlider"      
           style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}

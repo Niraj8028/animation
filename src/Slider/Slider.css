@@ -1,4 +1,5 @@
-.back{
+/* css for mobile */
+.mobile{
     z-index: -1;
     position: absolute;
     height: 560px;
@@ -6,10 +7,11 @@
     margin-bottom: 100px;
     margin-top: -80px;
     margin-left: -128px;   
-    
      /* left: 50%;
      right: 50%; */
 }
+
+/* css for left grid*/
 .left-mesh{ 
     /* background-color: rgba(255, 255, 255, 0.341); */
     transform: scale(1.2);
@@ -25,6 +27,8 @@
     top: 50px;
     left: 200px;
 }
+
+/* css for right grid */
 .right-mesh{
   transform: scale(1.2);
   
@@ -41,13 +45,15 @@
     /* background-image: linear-gradient(rgba(255, 255, 255, 0.06), rgba(255, 255, 255, 0.138)); */
 }
 
+/*css for slideshow of images  */
 .slideshow {
   /* background-color: white; */
-
     overflow: hidden;
     max-width: 270px;   
     z-index: 1;
 }
+
+/*css for slideshow of svgs */
 .slideshow1 {
   top: 95px;
   left: 180px;
@@ -57,19 +63,22 @@
   z-index:-4;
 }
 
-  
+ 
 .slideshowSlider {
     
     white-space: nowrap;
     transition: linear 3000ms;
     opacity: 0.4;
   }
+
   .slideshowSlider1 {
     z-index: -1;
     white-space: nowrap;
     transition: linear 3000ms;
     opacity: 1;
   }
+
+/* css for size of svgs in svgs slideshow */
 .slide1{
     /* position: absolute;  */
     /* background-color: white;    */
@@ -78,6 +87,8 @@
     height: 380px;
     width: 345px;   
 } 
+
+/* css for size of images in image slideshow */
 .slide{
     /* position: absolute;  */
     /* background-color: white;    */
